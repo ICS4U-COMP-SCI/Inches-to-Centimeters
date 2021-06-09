@@ -1,2 +1,2 @@
-# Inches-to-Centimeters
+# Inches-to-Centimeters (Java)
 George and Rzez
