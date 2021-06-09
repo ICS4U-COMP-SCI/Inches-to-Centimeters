@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class methodsAssignment {
   
   //method for centimeters to inches
-  static void cmToin(){
+  static void cmToin(){ //George Contribution
     
     //defining the variables used
     double centimeter, inches;
@@ -18,7 +18,7 @@ public class methodsAssignment {
     //output the conversion result
     System.out.println("The length in inches is " + inches + "in");
   }
-  static void inTocm() {
+  static void inTocm() {  //Rzez Contribution
     
     double centimeter, inches;
     System.out.println("How many inches? ");
@@ -35,7 +35,7 @@ public class methodsAssignment {
 
 
 
-public static void main(String[] args) {
+public static void main(String[] args) { //Both of us worked on this, worked on it on call so work was evenly distributed
     
     //define the selection for user to choose which conversion they want
     int selection;
