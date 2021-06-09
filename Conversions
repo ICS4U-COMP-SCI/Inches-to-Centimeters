@@ -1,1 +1,20 @@
+import java.util.Scanner;
 
+public class methodsAssignment {
+  
+  //method for centimeters to inches
+  static void cmToin(){
+    
+    //defining the variables used
+    double centimeter, inches;
+    System.out.println("How many centimeters? ");
+    Scanner input = new Scanner (System.in);
+    
+    //define centimeter as the next user input. double since they can be decimal values
+    centimeter = input.nextDouble();
+    //define inches as the division of centimeters by 2.54 to make the conversion
+    inches = centimeter/2.54;
+    
+    //output the conversion result
+    System.out.println("The length in inches is " + inches + "in");
+  }
