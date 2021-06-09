@@ -18,3 +18,53 @@ public class methodsAssignment {
     //output the conversion result
     System.out.println("The length in inches is " + inches + "in");
   }
+  static void inTocm() {
+    
+    double centimeter, inches;
+    System.out.println("How many inches? ");
+    Scanner input = new Scanner (System.in);
+    inches = input.nextDouble();
+    
+    //define centimeter as the multiplication of inches by 2.54
+    centimeter = inches*2.54;
+    
+    //output the result of the conversion
+    System.out.println("The length in centimeters is " + centimeter + "cm");
+   
+  }      
+
+
+
+public static void main(String[] args) {
+    
+    //define the selection for user to choose which conversion they want
+    int selection;
+    
+
+    //add the scanner for user input
+    Scanner input = new Scanner (System.in);
+    
+    
+    //options for user's conversions
+    System.out.println("What conversion would you like to make?");
+    System.out.println("1.)Centimeters to Inches");
+    System.out.println("2.)Inches to Centimeter");
+   
+    
+    //define the selection int as a user input
+    selection = input.nextInt();
+    
+    
+    //switch case for all the user's possible choices
+    switch(selection) {
+      case 1:
+        //call the appropriate method per case
+        cmToin();
+        break;
+      case 2:
+        inTocm();
+        break;
+
+      }
+    }
+  }
